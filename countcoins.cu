@@ -310,7 +310,7 @@ void allocate_device_buffers(unsigned int image_height,
                              unsigned int coin_height,
                              unsigned int coin_width)
 {
-    unsigned int x_blocks = image_wiadth / coin_width;
+    unsigned int x_blocks = image_width / coin_width;
     unsigned int y_blocks = image_height / coin_height;
     unsigned int num_blocks = x_blocks * y_blocks;
     size_t size_count = num_blocks * sizeof(unsigned int);
